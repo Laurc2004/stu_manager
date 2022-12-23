@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新增学生</title>
+</head>
+<body>
+<form action="addServlet" method="post">
+  <label>编号：<input type="text" name="id"></label><br>
+  <label>姓名：<input type="text" name="name"></label><br>
+  <label>性别：<input type="radio" name="gender" value="男">男</label>
+  <label><input type="radio" name="gender" value="女">女</label><br>
+  <label>班级：
+    <select name="classlist" >
+      　　<option name="classlist" value="一班">一班</option>
+      　　<option name="classlist" value="二班">二班</option>
+    </select>
+  </label><br>
+  <label>兴趣：<input type="checkbox" name="hobbies" value="唱">唱
+    <input type="checkbox" name="hobbies" value="跳">跳
+    <input type="checkbox" name="hobbies" value="rap">rap
+    <input type="checkbox" name="hobbies" value="篮球">篮球
+  </label>
+  <br>
+  <label>
+    <input type="submit" value="新增">
+  </label>
+</form>
+</body>
+</html>
